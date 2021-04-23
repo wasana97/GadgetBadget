@@ -3,7 +3,7 @@ package com.GB.util;
 import java.sql.Connection;
 import java.sql.DriverManager;
 
-public class DBconnection {
+public class DBconnectionPayments {
 	public static Connection connecter()
 	 {
 	 Connection con = null;
@@ -21,8 +21,7 @@ public class DBconnection {
 	 catch (Exception e)
 	 {e.printStackTrace();}
 	 return con;
-	 }
-
+	 } 
 	
 
 }
