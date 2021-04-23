@@ -2,7 +2,7 @@ package com.GB.service;
 import java.sql.*;
 
 import com.GB.model.*;
-import com.GB.util.DBconnection;
+import com.GB.util.DBconnectionPayments;
 
 
 
@@ -13,7 +13,7 @@ Connection con = null;
 	
 	public FundsService() {
 		
-		con = DBconnection.connecter();
+		con = DBconnectionPayments.connecter();
 	}
 	
 	 //A common method to connect to the DB
